@@ -4,8 +4,8 @@ import sys
 from logic import check_winner, find_best_move
 
 # Costanti
-WIDTH, HEIGHT = 300, 300
-CELL_SIZE = 100
+WIDTH, HEIGHT = 450, 450
+CELL_SIZE = 150
 LINE_COLOR = (0, 0, 0)
 BG_COLOR = (255, 255, 255)
 X_COLOR = (200, 0, 0)
@@ -14,9 +14,9 @@ LINE_WIDTH = 2
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Tic-Tac-Toe")
+pygame.display.set_caption("github.com/LautaroCavichia/tic-tac-toe")
 
-font = pygame.font.SysFont(None, 100)
+font = pygame.font.SysFont(None, 125)
 
 # Board iniziale
 board = ['-' for _ in range(9)]
